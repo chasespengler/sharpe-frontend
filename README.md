@@ -1,3 +1,14 @@
+# This app is built to analyze a portfolio of stocks for Sharpe Ratio and other metrics
+
+This repository contains the frontend for an application to analyze a portfolio for Sharpe Ratio and other metrics
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
