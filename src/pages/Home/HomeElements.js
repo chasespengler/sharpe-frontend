@@ -31,7 +31,7 @@ export const TickerTextBox = styled.input`
     background: rgba(23, 45, 67, 0.2);
 `
 
-export const SubmitBtn = styled.p`
+export const AddBtn = styled.p`
     justify-content: center;
     display: flex;
     padding: 2px;

@@ -5,7 +5,7 @@ import {
     PortfolioInputContainer,
     TickerInput,
     TickerTextBox,
-    SubmitBtn,
+    AddBtn,
     PortfolioList,
 } from './HomeElements'
 
@@ -44,7 +44,7 @@ const Home = () => {
         <PortfolioInputContainer>
             <TickerInput>
                 <TickerTextBox id="ticker-input"></TickerTextBox>
-                <SubmitBtn onClick={handleTickers}>Submit</SubmitBtn>
+                <AddBtn onClick={handleTickers}>Submit</AddBtn>
                 <PortfolioList></PortfolioList>
             </TickerInput>
         </PortfolioInputContainer>
