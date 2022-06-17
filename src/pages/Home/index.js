@@ -45,7 +45,7 @@ const Home = () => {
         <PortfolioInputContainer>
             <TickerInput>
                 <TickerTextBox id="ticker-input"></TickerTextBox>
-                <AddBtn onClick={handleTickers}>Submit</AddBtn>
+                <AddBtn onClick={handleTickers}>Add</AddBtn>
                 <PortfolioList>{port}</PortfolioList>
             </TickerInput>
         </PortfolioInputContainer>
