@@ -29,7 +29,8 @@ const Home = () => {
         /* handles the button click logic
             passes ticker and share amount to createPort
             to create portfolio */
-        const ticker = document.getElementById("ticker-input").value
+        const ticker = document.getElementById("ticker-input").value;
+        document.getElementById("ticker-input").value = ''
         if (ticker) {
             console.log(ticker)
             createPort(ticker)
@@ -45,7 +46,7 @@ const Home = () => {
             <TickerInput>
                 <TickerTextBox id="ticker-input"></TickerTextBox>
                 <AddBtn onClick={handleTickers}>Submit</AddBtn>
-                <PortfolioList></PortfolioList>
+                <PortfolioList>{port}</PortfolioList>
             </TickerInput>
         </PortfolioInputContainer>
     </HomeContainer>
