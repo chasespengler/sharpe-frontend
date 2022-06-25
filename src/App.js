@@ -1,8 +1,8 @@
 import './App.css';
 import NavBar from "./components/NavBar"
-import {BrowserRouter as Router} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom';
 import SideBar from './components/SideBar';
-import React, {useState} from 'react'
+import React, {useState} from 'react';
 import Home from './pages/Home';
 
 function App() {

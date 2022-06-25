@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import {
     HomeContainer,
     HomeHeader,
@@ -7,9 +7,13 @@ import {
     TickerTextBox,
     AddBtn,
     PortfolioList,
-} from './HomeElements'
+} from './HomeElements';
+import Modal from '../../components/Modal'
 
 const Home = () => {
+
+    /* modal toggle */
+    var modal = false;
 
     /* portfolio array */
     var port = []
@@ -23,6 +27,11 @@ const Home = () => {
     function emptyPort() {
         /* empties portfolio list */
         var port = []
+    }
+
+    function handleAdd(e) {
+        handleTickers(e)
+        const modal = true
     }
 
     function handleTickers(e) {
@@ -45,7 +54,7 @@ const Home = () => {
         <PortfolioInputContainer>
             <TickerInput>
                 <TickerTextBox id="ticker-input"></TickerTextBox>
-                <AddBtn onClick={handleTickers}>Add</AddBtn>
+                <AddBtn onClick={handleTickers}>Add a Stock to Your Portfolio</AddBtn>
                 <PortfolioList>{port}</PortfolioList>
             </TickerInput>
         </PortfolioInputContainer>

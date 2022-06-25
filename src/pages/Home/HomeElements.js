@@ -34,11 +34,12 @@ export const TickerTextBox = styled.input`
 export const AddBtn = styled.p`
     justify-content: center;
     display: flex;
-    padding: 2px;
+    padding: 5px;
     border: 1px solid black;
     border-radius: 50px;
     background: #106061;
     color: white;
+    cursor: pointer;
 `
 
 export const PortfolioList = styled.span`
