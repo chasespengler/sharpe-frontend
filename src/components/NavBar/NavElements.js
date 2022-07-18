@@ -88,6 +88,11 @@ export const NavLinks = styled(LinkS)`
     &.active {
         border-bottom: 3px solid #01bf71;
     }
+
+    &:hover {
+        color: #01bf71;
+        transition: 0.2s ease-in-out;
+    }
 `;
 
 export const NavBtn = styled.nav`

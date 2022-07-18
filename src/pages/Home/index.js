@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
+import {Button} from './ButtonElement'
 import {
     HomeContainer,
     HomeHeader,
@@ -7,10 +8,26 @@ import {
     TickerTextBox,
     AddBtn,
     PortfolioList,
+    HeroContainer,
+    HeroContent,
+    HeroBG,
+    VideoBG,
+    HeroH1,
+    ArrowForward,
+    ArrowRight,
+    HeroBtnWrapper,
 } from './HomeElements';
+import Video from '../../videos/coinbackground.mp4'
 import Modal from '../../components/Modal'
 
 const Home = () => {
+
+    /*Get Started button hover logic*/
+    const [hover, setHover] = useState(false)
+
+    const onHover = () => {
+        setHover(!hover)
+    }
 
     /* modal toggle */
     var modal = false;
@@ -58,6 +75,22 @@ const Home = () => {
                 <PortfolioList>{port}</PortfolioList>
             </TickerInput>
         </PortfolioInputContainer>
+        <HeroContainer>
+            <HeroBG>
+                <VideoBG autoPlay loop muted src={Video} type='video/mp4' />
+            </HeroBG>
+            <HeroContent>
+                <HeroH1>
+                    Welcome, Investor
+                </HeroH1>
+                <HeroBtnWrapper>
+                    <Button to="signup" onMouseEnter={onHover} 
+                    onMouseLeave={onHover} primary="true" dark="true">
+                        Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+                    </Button>
+                </HeroBtnWrapper>
+            </HeroContent>
+        </HeroContainer>
     </HomeContainer>
   )
 }
