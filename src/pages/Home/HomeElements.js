@@ -50,6 +50,7 @@ export const PortfolioList = styled.span`
 
 export const HeroContainer = styled.div`
     background: #0c0c0c;
+    width: 100%;
     display: flex;
     justify-content: left;
     align-items: top;
@@ -61,6 +62,7 @@ export const HeroContainer = styled.div`
     &:before {
         content: '';
         position: absolute;
+        width: 100vw;
         top: 0;
         right: 0;
         bottom: 0;
@@ -78,22 +80,22 @@ export const HeroBG = styled.div`
     right: 0;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     overflow: hidden;
 `
 
 export const VideoBG = styled.video`
-    width: 100%;
+    width: 100vw;
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
     background: #232a34;
+    
 `
 
 export const HeroContent = styled.div`
     z-index: 3;
-    max-width: 1200px;
     width: 100%;
     position: absolute;
     padding: 8px 24px;
@@ -103,7 +105,7 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
     font-weight: bold;
-    color: black;
+    color: white;
     text-align: left;
     margin-bottom: 55px;
 `

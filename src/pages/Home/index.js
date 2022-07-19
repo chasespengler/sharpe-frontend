@@ -17,8 +17,10 @@ import {
     ArrowRight,
     HeroBtnWrapper,
 } from './HomeElements';
-import Video from '../../videos/coinbackground.mp4'
+import Video from '../../videos/guyreading.mp4'
 import Modal from '../../components/Modal'
+
+/* add <LogInModal /> */
 
 const Home = () => {
 
@@ -27,6 +29,13 @@ const Home = () => {
 
     const onHover = () => {
         setHover(!hover)
+    }
+
+    /*Show login functionality*/
+    const [showLogin, setLogIn] = useState(false)
+
+    const onLogIn = () => {
+        setLogIn(!showLogin)
     }
 
     /* modal toggle */
@@ -77,7 +86,7 @@ const Home = () => {
         </PortfolioInputContainer>
         <HeroContainer>
             <HeroBG>
-                <VideoBG autoPlay loop muted src={Video} type='video/mp4' />
+                <VideoBG autoPlay muted loop src={Video} type='video/mp4' />
             </HeroBG>
             <HeroContent>
                 <HeroH1>
@@ -85,7 +94,8 @@ const Home = () => {
                 </HeroH1>
                 <HeroBtnWrapper>
                     <Button to="signup" onMouseEnter={onHover} 
-                    onMouseLeave={onHover} primary="true" dark="true">
+                    onMouseLeave={onHover} primary="true" dark="true"
+                    onClick={onLogIn}>
                         Get Started {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
