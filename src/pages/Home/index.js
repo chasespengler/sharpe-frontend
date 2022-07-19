@@ -76,21 +76,13 @@ const Home = () => {
 
   return (
     <HomeContainer>
-        <HomeHeader>Hello, Investor.</HomeHeader>
-        <PortfolioInputContainer>
-            <TickerInput>
-                <TickerTextBox id="ticker-input"></TickerTextBox>
-                <AddBtn onClick={handleTickers}>Add a Stock to Your Portfolio</AddBtn>
-                <PortfolioList>{port}</PortfolioList>
-            </TickerInput>
-        </PortfolioInputContainer>
         <HeroContainer>
             <HeroBG>
                 <VideoBG autoPlay muted loop src={Video} type='video/mp4' />
             </HeroBG>
             <HeroContent>
                 <HeroH1>
-                    Welcome, Investor
+                    Welcome, Investor.
                 </HeroH1>
                 <HeroBtnWrapper>
                     <Button to="signup" onMouseEnter={onHover} 
