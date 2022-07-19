@@ -2,12 +2,6 @@ import React, { Component, useState } from 'react'
 import {Button} from './ButtonElement'
 import {
     HomeContainer,
-    HomeHeader,
-    PortfolioInputContainer,
-    TickerInput,
-    TickerTextBox,
-    AddBtn,
-    PortfolioList,
     HeroContainer,
     HeroContent,
     HeroBG,
