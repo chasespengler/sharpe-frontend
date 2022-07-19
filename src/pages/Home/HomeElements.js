@@ -96,7 +96,7 @@ export const VideoBG = styled.video`
 
 export const HeroContent = styled.div`
     z-index: 3;
-    width: 100%;
+    width: 100vw;
     position: absolute;
     padding: 8px 24px;
     display: flex;
@@ -111,7 +111,7 @@ export const HeroH1 = styled.h1`
 `
 
 export const HeroBtnWrapper = styled.div`
-    margin-top: 32px;
+    margin-top: 45px;
     display: flex;
     flex-direction: column;
     align-items: center;
