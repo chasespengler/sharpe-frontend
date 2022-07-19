@@ -5,7 +5,9 @@ import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
 
 
 export const HomeContainer = styled.div`
-    max-width: 1300px;
+    padding: 7vh 0;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100vw;
 `
 
 export const HomeHeader = styled.h1`
@@ -54,8 +56,8 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: left;
     align-items: top;
-    padding: 0 30px;
-    height: 500px;
+    padding: 0 20px;
+    height: 75vh;
     position: relative;
     z-index: 1;
 
@@ -91,7 +93,6 @@ export const VideoBG = styled.video`
     -o-object-fit: cover;
     object-fit: cover;
     background: #232a34;
-    
 `
 
 export const HeroContent = styled.div`
@@ -111,7 +112,7 @@ export const HeroH1 = styled.h1`
 `
 
 export const HeroBtnWrapper = styled.div`
-    margin-top: 45px;
+    margin-top: 22vh;
     display: flex;
     flex-direction: column;
     align-items: center;
