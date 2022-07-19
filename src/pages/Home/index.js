@@ -10,6 +10,7 @@ import {
     ArrowForward,
     ArrowRight,
     HeroBtnWrapper,
+    AboutContainer,
 } from './HomeElements';
 import Video from '../../videos/guyreading.mp4'
 import Modal from '../../components/Modal'
@@ -87,6 +88,9 @@ const Home = () => {
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>
+        <AboutContainer>
+            ABOUT THE HOMIES
+        </AboutContainer>
     </HomeContainer>
   )
 }

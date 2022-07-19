@@ -14,6 +14,8 @@ export const PortfolioList = styled.span`
     margin: 1px;
 `
 
+/* HERO CONTENT */
+
 export const HeroContainer = styled.div`
     background: #0c0c0c;
     width: 100%;
@@ -24,6 +26,7 @@ export const HeroContainer = styled.div`
     height: 75vh;
     position: relative;
     z-index: 1;
+    margin-bottom: 50px;
 
     &:before {
         content: '';
@@ -90,4 +93,11 @@ export const ArrowForward = styled(MdArrowForward)`
 export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
+`
+
+/* ABOUT CONTENT */
+
+export const AboutContainer = styled.div`
+    width: 100vw
+
 `
