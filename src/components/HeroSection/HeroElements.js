@@ -62,6 +62,7 @@ export const HeroH1 = styled.h1`
     font-weight: bold;
     color: white;
     text-align: left;
+    font-size: 300%;
     margin-bottom: 55px;
 `
 

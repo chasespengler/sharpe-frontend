@@ -31,12 +31,13 @@ const InfoSection = ({
     dark,
     dark2,
     primary,
+    colStart,
 }) => {
   return (
     <>
-        <InfoContainer lightBG={lightBG} ic={id}>
+        <InfoContainer lightBG={lightBG} id={id}>
             <InfoWrapper>
-                <InfoRow imgStart={imgStart}>
+                <InfoRow imgStart={imgStart} colStart={colStart}>
                     <Column1>
                         <TextWrapper>
                             <TopLine>

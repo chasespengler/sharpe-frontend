@@ -6,7 +6,7 @@ import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
 
 export const HomeContainer = styled.div`
     padding: 7vh 0;
-    background: rgba(0, 0, 0, 0.95);
+    background: #010606;
     width: 100vw;
 `
 
