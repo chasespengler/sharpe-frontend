@@ -1,10 +1,7 @@
 import React, { Component, useState } from 'react'
-import {Button} from '../../components/ButtonElement'
 import {
-    HomeContainer,
-    AboutContainer,
+    HomeContainer
 } from './HomeElements';
-import Video from '../../videos/guyreading.mp4'
 import Modal from '../../components/Modal'
 import HeroSection from '../../components/HeroSection';
 import InfoSection from '../../components/InfoSections';
