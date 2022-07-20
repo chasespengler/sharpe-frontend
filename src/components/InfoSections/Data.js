@@ -2,6 +2,7 @@ import IMG1 from '../images/svg-1.svg'
 import IMG2 from '../images/svg-2.svg'
 import IMG3 from '../images/svg-3.svg'
 import IMG4 from '../images/svg-4.svg'
+import IMG5 from '../images/svg-5.svg'
 
 
 export const homeObjOne = {
@@ -46,7 +47,7 @@ export const homeObjThree = {
     topLine: 'Manage your portfolio with confidence',
     headline: 'Get professional insights into your portfolio',
     description: 'Get pertinent information and analysis of your portfolio using modern portfolio theory to help you better understand how to allocate your capital and make your money work for you.',
-    buttonLabel: 'Meet the team',
+    buttonLabel: 'Sign up',
     imgStart: false,
     colStart: true,
     img: IMG2,
