@@ -1,19 +1,12 @@
 import React, { Component, useState } from 'react'
-import {Button} from './ButtonElement'
+import {Button} from '../../components/ButtonElement'
 import {
     HomeContainer,
-    HeroContainer,
-    HeroContent,
-    HeroBG,
-    VideoBG,
-    HeroH1,
-    ArrowForward,
-    ArrowRight,
-    HeroBtnWrapper,
     AboutContainer,
 } from './HomeElements';
 import Video from '../../videos/guyreading.mp4'
 import Modal from '../../components/Modal'
+import HeroSection from '../../components/HeroSection';
 
 /* add <LogInModal /> */
 
@@ -71,23 +64,7 @@ const Home = () => {
 
   return (
     <HomeContainer>
-        <HeroContainer>
-            <HeroBG>
-                <VideoBG autoPlay muted loop src={Video} type='video/mp4' />
-            </HeroBG>
-            <HeroContent>
-                <HeroH1>
-                    Welcome, Investor.
-                </HeroH1>
-                <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover} 
-                    onMouseLeave={onHover} primary="true" dark="true"
-                    onClick={onLogIn}>
-                        Get Started {hover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
-                </HeroBtnWrapper>
-            </HeroContent>
-        </HeroContainer>
+        <HeroSection />
         <AboutContainer>
             ABOUT THE HOMIES
         </AboutContainer>
