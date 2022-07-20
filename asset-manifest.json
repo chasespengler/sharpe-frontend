@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sharpe-frontend/static/css/main.e6c13ad2.css",
+    "main.js": "/sharpe-frontend/static/js/main.c8e46b17.js",
+    "static/media/guyreading.mp4": "/sharpe-frontend/static/media/guyreading.50a1160eb70ce0f973e3.mp4",
+    "static/media/svg-5.svg": "/sharpe-frontend/static/media/svg-5.af71fb6492d9431b3a766f798f625d45.svg",
+    "static/media/svg-2.svg": "/sharpe-frontend/static/media/svg-2.e1d820b9b2059d769fff5552a7563b98.svg",
+    "static/media/svg-4.svg": "/sharpe-frontend/static/media/svg-4.951e6946ad7a4aa786b5226bd94bf7f0.svg",
+    "static/media/svg-3.svg": "/sharpe-frontend/static/media/svg-3.a5d9ccc4ca3b5f35ca3d05c11e510ddd.svg",
+    "static/media/svg-1.svg": "/sharpe-frontend/static/media/svg-1.cc899fc52ed230bc11b0b426954493c9.svg",
+    "index.html": "/sharpe-frontend/index.html",
+    "main.e6c13ad2.css.map": "/sharpe-frontend/static/css/main.e6c13ad2.css.map",
+    "main.c8e46b17.js.map": "/sharpe-frontend/static/js/main.c8e46b17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c8e46b17.js"
+  ]
+}
