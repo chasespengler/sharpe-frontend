@@ -7,6 +7,8 @@ import {
 import Video from '../../videos/guyreading.mp4'
 import Modal from '../../components/Modal'
 import HeroSection from '../../components/HeroSection';
+import InfoSection from '../../components/InfoSections';
+import { homeObjOne, homeObjTwo, homeObjThree} from '../../components/InfoSections/Data';
 
 /* add <LogInModal /> */
 
@@ -65,9 +67,9 @@ const Home = () => {
   return (
     <HomeContainer>
         <HeroSection />
-        <AboutContainer>
-            ABOUT THE HOMIES
-        </AboutContainer>
+        <InfoSection {...homeObjOne} />
+        <InfoSection {...homeObjTwo} />
+        <InfoSection {...homeObjThree} />
     </HomeContainer>
   )
 }

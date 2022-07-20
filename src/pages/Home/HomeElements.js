@@ -19,6 +19,7 @@ export const PortfolioList = styled.span`
 /* ABOUT CONTENT */
 
 export const AboutContainer = styled.div`
-    width: 100vw
+    width: 100vw;
+    margin: 500px;
 
 `
