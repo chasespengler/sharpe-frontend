@@ -18,10 +18,11 @@ export const FooterWrapper = styled.div`
 export const FooterDisclaimer = styled.div`
     font-size: 13px;
     text-align: center;
-    padding: 5px;
+    padding: 0 50px;
 
     @media screen and (max-width: 768px) {
         font-size: 9px;
+        padding: 0 10px;
     }
 `
 
