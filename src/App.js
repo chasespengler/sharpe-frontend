@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import SideBar from './components/SideBar';
 import React, {useState} from 'react';
 import Home from './pages/Home';
+import Footer from './components/Footer'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <NavBar toggle={toggle}/>
       <SideBar isOpen={isOpen} toggle={toggle}/>
       <Home />
+      <Footer />
     </Router>
   );
 }
