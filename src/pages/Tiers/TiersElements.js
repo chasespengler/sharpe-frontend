@@ -8,9 +8,5 @@ export const TiersContainer = styled.div`
 `
 
 export const GridWrapper = styled.div`
-    background: #010606;
-`
-
-export const TierRow = styled.div`
-    background: #010606;
+    background: white;
 `

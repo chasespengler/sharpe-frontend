@@ -2,15 +2,17 @@ import React from 'react'
 import {
     TiersContainer,
     GridWrapper,
-    TierRow,
 } from './TiersElements'
+import TierSection from '../../components/TierSection'
 import { tierObjOne } from '../../components/TierSection/Data'
+
+/* <TierSection {...tierObjOne} /> */
 
 const Tiers = () => {
   return (
     <TiersContainer>
         <GridWrapper>
-            <TierRow {...tierObjOne} />
+          <TierSection {...tierObjOne} />
         </GridWrapper>
     </TiersContainer>
   )
