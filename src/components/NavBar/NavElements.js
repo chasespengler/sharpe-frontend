@@ -13,6 +13,7 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 10;
+    width: 100%;
 
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
@@ -24,9 +25,8 @@ export const NavbarContainer = styled.div`
     justify-content: space-between;
     height: 80px;
     z-index: 1;
-    width: 100%;
+    width: 100vw;
     padding: 0 25px;
-    max-width: 100vw;
 `
 
 export const NavLogo = styled(LinkR)`

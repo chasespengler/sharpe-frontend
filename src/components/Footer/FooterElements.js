@@ -4,6 +4,7 @@ export const FooterContainer = styled.div`
     min-height: 100px;
     background: #000;
     height: auto;
+    width: 100%;
 `
 
 export const FooterWrapper = styled.div`

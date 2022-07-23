@@ -19,7 +19,8 @@ export const homeObjOne = {
     alt: 'image',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    buttonPath: '/team'
 }
 
 export const homeObjTwo = {
@@ -36,7 +37,8 @@ export const homeObjTwo = {
     alt: 'image',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    buttonPath: '/tiers'
 }
 
 export const homeObjThree = {
@@ -54,5 +56,6 @@ export const homeObjThree = {
     alt: 'image',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    buttonPath: '/signup'
 }
